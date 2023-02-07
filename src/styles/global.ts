@@ -1,6 +1,10 @@
 import { createGlobalStyle } from 'styled-components';
 
 export const GlobalStyles = createGlobalStyle`
+  :root {
+    --background: #06092b;
+  }
+
   * {
     margin: 0;
     padding: 0;
