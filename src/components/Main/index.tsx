@@ -7,7 +7,7 @@ export interface MainInterface {
 
 export const Main = ({
   title = 'boilerplate',
-  description = ' TypeScript, ReactJS, NextJS e Styled Components',
+  description = 'TypeScript, ReactJS, NextJS e Styled Components',
 }: MainInterface) => (
   <S.Wrapper>
     <S.Logo
