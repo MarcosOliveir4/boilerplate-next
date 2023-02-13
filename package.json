@@ -12,7 +12,8 @@
     "test:watch": "jest --watch",
     "test:coverage": "jest --coverage",
     "storybook": "start-storybook -s ./public -p 6006",
-    "build-storybook": "build-storybook"
+    "build-storybook": "build-storybook",
+    "generate": "yarn plop --plopfile ./generators/plopfile.mjs"
   },
   "dependencies": {
     "@next/font": "13.1.6",
@@ -58,6 +59,7 @@
     "jest-environment-jsdom": "^29.4.2",
     "jest-styled-components": "^7.1.1",
     "lint-staged": "^13.1.1",
+    "plop": "^3.1.2",
     "prettier": "2.8.4"
   },
   "lint-staged": {
