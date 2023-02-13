@@ -32,11 +32,5 @@ jobs:
       - name: Run Tests
         run: yarn test:coverage
 
-      - uses: paambaati/codeclimate-action@v3.0.0
-        env:
-          CC_TEST_REPORTER_ID: 7d02f640654053adb560ba5a02a7006c9417bed44ed7ec54680f882149fbe1f1
-        with:
-          coverageCommand: yarn test:coverage
-
       - name: Build
         run: yarn build
